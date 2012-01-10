@@ -1,0 +1,3 @@
+ebin/ usr/lib/erlang/lib/ibrowse/
+priv/ usr/lib/erlang/lib/ibrowse/
+doc/ usr/lib/erlang/lib/ibrowse/

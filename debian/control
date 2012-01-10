@@ -1,0 +1,15 @@
+Source: ibrowse
+Section: unknown
+Priority: extra
+Maintainer: Dmitriy Budashny <dmitriy.budashny@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), git, erlang-base
+Standards-Version: 3.9.2
+Homepage: https://github.com/cmullaparthi/ibrowse
+#Vcs-Git: git://git.debian.org/collab-maint/ibrowse.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/ibrowse.git;a=summary
+
+Package: ibrowse
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Erlang HTTP client
+ ibrowse is a HTTP client written in erlang.
